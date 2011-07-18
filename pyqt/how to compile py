@@ -1,0 +1,30 @@
+marc@csserver2:~$ cd gui2011
+bash: cd: gui2011: No such file or directory
+marc@csserver2:~$ cd gui2011a
+bash: cd: gui2011a: No such file or directory
+marc@csserver2:~$ cd public_html
+marc@csserver2:~/public_html$ ./gui2011a
+bash: ./gui2011a: is a directory
+marc@csserver2:~/public_html$ cd gui2011a
+marc@csserver2:~/public_html/gui2011a$ cd first program
+bash: cd: first: No such file or directory
+marc@csserver2:~/public_html/gui2011a$ cd pyqt
+marc@csserver2:~/public_html/gui2011a/pyqt$ cd first program
+bash: cd: first: No such file or directory
+marc@csserver2:~/public_html/gui2011a/pyqt$ cd first program
+bash: cd: first: No such file or directory
+marc@csserver2:~/public_html/gui2011a/pyqt$ cd first program
+bash: cd: first: No such file or directory
+marc@csserver2:~/public_html/gui2011a/pyqt$ cd first program
+bash: cd: first: No such file or directory
+marc@csserver2:~/public_html/gui2011a/pyqt$ cd first_program
+marc@csserver2:~/public_html/gui2011a/pyqt/first_program$ make window.py
+make: Nothing to be done for `window.py'.
+marc@csserver2:~/public_html/gui2011a/pyqt/first_program$ ./window.py
+bash: ./window.py: Permission denied
+marc@csserver2:~/public_html/gui2011a/pyqt/first_program$ chmod tx window.py
+chmod: invalid mode: `tx'
+Try `chmod --help' for more information.
+marc@csserver2:~/public_html/gui2011a/pyqt/first_program$ chmod +x  window.py
+marc@csserver2:~/public_html/gui2011a/pyqt/first_program$ ./window.py
+
